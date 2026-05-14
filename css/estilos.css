@@ -6,17 +6,17 @@ body { margin: 0;
      max-width: 1200px;
       margin: 7%; }
 
-.cont, .cont2, .cont3
+.cont, .cont2, .cont3, .cont4, .cont5
  {
     display: flex;
     align-items: center;
 }
-.cont img, .cont2 img, .cont3 img {
+.cont img, .cont2 img, .cont3 img, .cont4 img {
     padding: 2%;
     width: 60%;
     margin-left: 2%;
 }
-.cont aside, .cont2 aside {
+.cont aside, .cont2 aside, .cont4 aside {
     width: 50%;
 }
 
@@ -50,7 +50,7 @@ margin-right: 8%;}
         font-size: 1.5rem;
     margin: 2%;}
 
-    .h2p2 {color:cadetblue; 
+    .h2p2, .h2p3{color:cadetblue; 
         background-color: beige;
          font-size: 1.5rem;
     text-align: center;
