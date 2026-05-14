@@ -1,1 +1,77 @@
 /* hoja de estilos */
+body { margin: 0;
+    background-image: url('../img/fondo.png');}
+
+#rojo{background-color: rgb(141, 184, 199);
+     max-width: 1200px;
+      margin: 7%; }
+
+.cont {
+    display: flex;
+    align-items: center;
+}
+.cont img {
+    padding: 2%;
+    width: 50%;
+}
+.cont aside {
+    width: 50%;
+}
+
+h1 {margin-top: 8%;
+    margin-bottom: 4%;
+    color: antiquewhite;
+    background-color: rgb(173, 181, 255);
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 3rem;
+padding: 2rem;}
+
+    ul{ font-style: oblique;
+        list-style: none;
+        display: flex; 
+        justify-content: center;
+         font-size: 1.5rem; 
+         background-color: rgb(173, 181, 255);
+          gap: 8rem; 
+        padding: 1rem;}
+          li a {color: antiquewhite; :visited {color: midnightblue;}}
+          
+         
+               
+    
+    h2 {color: rgb(16, 17, 77);
+        text-align: center;
+        font-family: 'Barlow', sans-serif;
+        font-size: 1.5rem;
+    margin: 2%;}
+
+    h3, h4 {color:cadetblue; 
+        background-color: beige;
+         font-size: 1.5rem;
+    text-align: left;
+padding: 1rem;}
+
+        p {color: whitesmoke;
+            text-align: left;
+        font-size: 1.4rem;
+    padding: 1rem;}
+        footer {text-align: center;
+            font-size: 1rem;
+            background-color: rgb(173, 181, 255);
+            padding: 1rem;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
