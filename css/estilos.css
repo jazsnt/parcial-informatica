@@ -3,22 +3,44 @@ body { margin: 0;
     background-image: url('../img/fondo.png');}
 
 .box{background-color: rgb(141, 184, 199);
-     max-width: 1200px;
-      margin: 7%; }
+      margin: 8%; }
 
 .cont, .cont2, .cont3, .cont4, .cont5
  {
     display: flex;
     align-items: center;
 }
-.cont img, .cont2 img, .cont3 img, .cont4 img {
+.cont img, .cont3 img, .cont4 img {
     padding: 2%;
-    width: 60%;
-    margin-left: 2%;
-}
-.cont aside, .cont2 aside, .cont4 aside {
     width: 50%;
+    margin: 5%;
 }
+.cont2 img {
+    padding: 2%;
+    width: 50%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+.cont2 aside 
+{
+    padding: 2%;
+    width: 50%  ; 
+}
+
+.cont aside, .cont3 aside, .cont4 aside {
+    padding: 2%;
+    width: 50%  ;
+        margin: 5%;
+        
+}
+
+
+.cont5 {
+    padding: 2%;
+    width: 92%;
+    
+}
+
 
 h1 {
     margin-bottom: 4%;
@@ -44,22 +66,13 @@ margin-right: 8%;}
          
                
     
-    h2 {color: rgb(16, 17, 77);
+    .azul {color: rgb(16, 17, 77);
         text-align: center;
         font-family: 'Barlow', sans-serif;
         font-size: 1.5rem;
     margin: 2%;}
 
-    .h2p2, .h2p3{color:cadetblue; 
-        background-color: beige;
-         font-size: 1.5rem;
-    text-align: center;
-padding: 1rem;
-margin: 4%;
-}
-.h3p2 {font-size: large;}
-
-    h3, h4 {color:cadetblue; 
+    h2, h3, h4{color:cadetblue; 
         background-color: beige;
          font-size: 1.5rem;
     text-align: center;
