@@ -82,6 +82,7 @@ footer a {color: rgb(123, 124, 181);
 
     h2, h3, h4{color:cadetblue; 
         background-color: beige;
+        font-family: 'Barlow', sans-serif;
          font-size: 1.5rem;
     text-align: center;
 padding: 1rem;
