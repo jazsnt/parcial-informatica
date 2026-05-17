@@ -3,7 +3,8 @@ body { margin: 0;
     background-image: url('../img/fondo.png');}
 
 .box{background-color: rgb(141, 184, 199);
-      margin: 8%; }
+      margin: 0 auto;
+    max-width: 1200px; }
 
 .cont, .cont2, .cont3, .cont4, .cont5
  {
@@ -21,13 +22,13 @@ body { margin: 0;
     margin-bottom: 5%;
     margin-right: 5%;
 }
-.cont2 aside 
+.cont2 section 
 {
     padding: 2%;
     width: 50%  ; 
 }
 
-.cont aside, .cont3 aside, .cont4 aside {
+.cont section, .cont3 section, .cont4 section {
     padding: 2%;
     width: 50%  ;
         margin: 5%;
@@ -61,8 +62,15 @@ padding: 4rem;}
         padding: 1rem;
     margin-left: 8%;
 margin-right: 8%;}
-          li a {color: antiquewhite; :visited {color: midnightblue;}}
-          
+
+ul li a:hover{color: rgb(235, 93, 178);}
+
+footer a {color: rgb(123, 124, 181);
+            text-decoration: none;
+            font-weight: bold;}
+          footer a:hover {color: rgb(143, 47, 158);
+            text-decoration: none;
+            font-weight: bold;}
          
                
     
@@ -89,18 +97,3 @@ margin: 4%;}
             font-size: 1rem;
             background-color: rgb(173, 181, 255);
             padding: 1rem;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
